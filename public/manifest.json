@@ -1,0 +1,45 @@
+{
+  "name": "TISA — AI Companion",
+  "short_name": "TISA",
+  "description": "Your hyper-capable local AI study companion, coding assistant, and productivity partner.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "categories": ["education", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Chat",
+      "url": "/?action=new-chat",
+      "description": "Start a new AI conversation"
+    },
+    {
+      "name": "Focus Timer",
+      "url": "/?view=timer",
+      "description": "Start a Pomodoro focus session"
+    }
+  ]
+}
